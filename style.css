@@ -315,6 +315,172 @@ span.explore {
   position: absolute;
   bottom: -77px;
 }
+/*--------------------------------- ENDTXT STYLE---------------------------------*/
+.end_txt {
+  margin-top: 80px;
+}
+.main_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main_box {
+  width: 350px;
+  height: 240px;
+}
+
+h1.box_head {
+  color: #deb37e;
+  margin-bottom: 22px;
+  font-size: 33.33px;
+}
+p.box_txt {
+  color: #333d42;
+  margin-bottom: 22px;
+  font-size: 18.75px;
+}
+/*-----------------------QUOTE STYLE---------------------------------*/
+.quote_wrap {
+  align-items: center;
+}
+.quote_sign {
+  display: block;
+  width: 100px;
+  margin: 0px auto 2px auto;
+  font-size: 113px;
+  color: #333d42;
+  text-align: center;
+}
+.quote_txt {
+  display: block;
+  width: 800px;
+  margin: -55px auto 23px auto;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333d42;
+  text-align: center;
+}
+.end_quote {
+  display: block;
+  width: 100px;
+  margin: 0px auto 90px auto;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #333d42;
+  text-align: center;
+}
+/*--------------------------------- NEWSTELLER STYLE---------------------------------*/
+.newsteller {
+  background: #deb37e;
+  position: relative;
+}
+.news_wrap {
+  padding: 137px 0px;
+}
+.news_title {
+  font-size: 75px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+.teller_txt {
+  font-size: 25px;
+  color: rgb(51, 61, 66);
+  text-align: center;
+  width: 68%;
+  margin: 0px auto 50px;
+}
+.serch_box_style {
+  width: 375px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+#teller_box {
+  font-size: 18px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  color: rgb(51, 61, 66); /* text-align: center; */
+  margin-bottom: 30px;
+  width: 100%;
+  height: 40px;
+  border-radius: 25px;
+  outline: none;
+  border: none; /* position: relative; */
+}
+#teller_btn {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 80px;
+  height: 40px;
+  width: 30%;
+  background: #54524f;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
+.shape_top {
+  position: absolute;
+  top: -53px;
+  height: 122px;
+  width: 1519px;
+}
+
+.shape_bottom {
+  position: absolute;
+  bottom: -197px;
+  width: 1519px;
+  height: 259px;
+}
+/*--------------------------------- FOOTER STYLE---------------------------------*/
+footer {
+  background: #7f7770;
+}
+.foot_wrap {
+  padding-top: 370px;
+  padding-bottom: 210px;
+  display: flex;
+  justify-content: space-around;
+}
+.foot_box {
+  flex-basis: 15%;
+}
+
+.foot_box_title {
+  flex-basis: 40%;
+}
+.foot_head {
+  font-size: 31.6px;
+  color: #ffffff;
+}
+.foot_text {
+  font-size: 16px;
+  color: #ffffff;
+  margin: 30px 0 30px 0;
+}
+.icon_wrap i {
+  font-size: 14px;
+  background: #ffffff;
+  padding: 7px;
+  border-radius: 35px;
+  margin-right: 6px;
+}
+.links_wrap a {
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 8px;
+}
+.links_wrap a:nth-child(1) {
+  margin-top: 30px;
+}
 /*--------------------------------- RESPONSIVE STYLE---------------------------------*/
 @media only screen and (max-width: 750px) {
   /*------------CONTAINER SHRINK-----------------*/
